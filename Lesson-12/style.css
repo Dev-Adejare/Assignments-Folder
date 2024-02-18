@@ -1,0 +1,64 @@
+div {
+    background-color: aqua;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-size: 20px;
+    color: green;
+    margin: auto;
+    position: relative;
+    
+}
+
+/* div {transform: rotatey(75deg);
+    transform-origin: top left;
+} */
+
+/* div {
+    transform:rotate3d(1,1,0,45deg);
+} */
+
+/* div {
+    transform:scale(1.5,0.5);
+} */
+
+/* Translate */
+/* div{
+    transform: translatex(50px);
+} */
+
+/* div::after{
+    content: "Dltafrica";
+    background-color: brown;
+    position: absolute;
+    top: 35px;
+    right: -3px;
+    transform: rotate(45deg);
+    font-size: 20px;
+
+} */
+
+/* SKEW */
+
+/* div {
+    transform: skew(50deg);
+} */
+
+/* TRANSITION */
+.trans {
+    height: 100px;
+    width: 100px;
+    background-color: orange;
+    margin: 100px auto;
+    transition-duration: 0.5s;
+     transition:transform 0.5s, ease-out;
+    transition-delay: 1s; */
+    
+}
+
+.trans:hover {
+    /* transform: scale(2.2); */
+    background-color: blue;
+}

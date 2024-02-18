@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+     font-family: sans-serif;
+     height: 100vh;
+     padding: 20px;
+     
+
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    max-width: 800px;
+    height: 400px;
+    text-align: center;
+
+}
+
+.box{
+    min-height: 100px;
+    min-width: 100px;
+    background-color:red;
+    font-size: 2rem;
+    padding: 0.2rem;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40%;
+}

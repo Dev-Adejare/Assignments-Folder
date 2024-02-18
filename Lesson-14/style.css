@@ -1,0 +1,33 @@
+:root {
+  /* color */
+  --color-success: #80ed99;
+  --color-danger: #a4164a;
+  --smallBox-color: #eeba0b;
+  --box-color: #ddb892;
+  --text-color: bisque;
+
+  /* Padding */
+  --smallBox-pd: 7px;
+  --box-pd: 10px;
+  --box: 5px;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--color-danger);
+}
+
+.box {
+  background-color: var(--box-color);
+  padding: var(--box-pd);
+  margin: 20px;
+  height: 300px;
+  width: 300px;
+}
+
+.smallBox {
+  background-color: var(--smallBox-color);
+  height: 100px;
+  width: 100px;
+  padding: var(--smallBox-pd);
+}

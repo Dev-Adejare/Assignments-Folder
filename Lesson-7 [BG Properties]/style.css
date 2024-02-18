@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    color: whitesmoke;
+    background-image: url(/Mens\ Clothing\ _\ Cheap\ Trendy\ Clothes\ For\ Men\ Online\ Sale.jpg);
+    background-repeat: repeat;
+}
+
+.boxone {
+    background-color: burlywood;
+    height: 200px;
+    width: 200px;
+}
+
+.boxtwo {
+    background-image: url(/Road.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    width: 200px;
+}
+
+.boxthree {
+    height: 700px;
+    width: auto;
+    background-image: url(/alex-shuper-obtr35o4u0k-unsplash\ \(1\).jpg) ;
+    background-attachment: fixed;
+}

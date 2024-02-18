@@ -1,0 +1,97 @@
+/* .kEyframe { */
+    /* THE ELEMENTS TO APPLY THE ANIMATION TO */
+    /* width: 200px;
+    height: 200px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+} */
+
+/* THE ANIMATION CODE */
+/* @keyframes example{
+    from{background-color: red;}
+    to { background-color: yellow;}
+} */
+
+/* .duration { */
+     /* THE ELEMENTS TO APPLY THE ANIMATION TO */
+    /* height: 200px;
+    width: 200px;
+    background-color: red;
+    animation-name: ose;
+    animation-duration: 7s;
+    position: relative;
+    animation-iteration-count: 4;
+    animation-direction:alternate-reverse; */
+/* } */
+/* THE ANIMATION CODE */
+/* @keyframes ose{
+    0% {background-color: red; left: 0px; top: 0px;}
+    25% {background-color: yellow; left: 200px; top: 0px;}
+    50% {background-color: blue; left: 200px; top: 200px;}
+    75% {background-color: orange; left: 0px; top: 200px;}
+    100% {background-color: green; left: 0px; top: 0px;}
+
+} */
+
+.container {
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    animation-duration: 6s;
+    animation-name: mover;
+    font-weight: bold;
+    position: relative;
+    animation-fill-mode: forwards;
+    /* display:inline-block; */
+
+
+}
+#div2{
+    background-color: aqua;
+}
+#div3{
+    background-color: blueviolet;
+}
+#div4{
+    background-color:coral;
+}
+#div5{
+    background-color: chartreuse;
+}
+
+#div1{
+    animation-timing-function: ease;
+}
+
+#div2{
+    animation-timing-function: ease-in;
+}
+#div3{
+    animation-timing-function: ease-out;
+}
+#div4{
+    animation-timing-function: ease-in-out;
+}
+.anime{
+    background-image: linear-gradient(-225deg, #231557 0%, #44107a 29%, #ff1361 67%,#fff800 100%);
+    background-size: auto auto;
+    background-clip:border-box;
+    background-size: 200% auto;
+    background-clip: text;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+    font-size: 3rem;
+
+}
+
+@keyframes mover{
+    from{left:0px;}
+    to{left:300px;}
+}
+@keyframes textclip{
+    to{background-position: 200%;}
+}
